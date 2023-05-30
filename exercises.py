@@ -21,3 +21,10 @@ while indice < len(family):
     print(family[indice])
     indice += 1
 print("THIS IS ALL FOR TUPLE")
+
+# Dictionary
+print("DICTIONARY")
+personal_info = {'name': 'Camila', 'age':'19', 'city': 'Aguascalientes'} #declaring my dictionary
+personal_info['city'] = "Nashville" #modifying the city from were I am
+print(personal_info) #printing modified dictionary
+print("THIS IS ALL FOR DICTIONARY")
